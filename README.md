@@ -16,7 +16,7 @@ Built with Ruby 2.3.3
 
 ## Heroku
 
-coming soon
+[https://pearing.herokuapp.com/](https://pearing.herokuapp.com/)
 
 ## To run locally
 
