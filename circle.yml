@@ -1,0 +1,12 @@
+---
+machine:
+  ruby:
+    version: 2.3.3
+  environment:
+    SPEC_ALL: true
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: pearing
