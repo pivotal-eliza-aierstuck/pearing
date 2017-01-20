@@ -1,0 +1,7 @@
+<%= form_for(@user, html: { multipart: true}) do |form| %>
+  <div class="user-form">
+    <%= form.label :full_name %>
+    <%= form.text_field :full_name, class: "full-name" %>
+    <%= form.submit "Submit" %>
+  </div>
+  <% end %>
