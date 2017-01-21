@@ -2,7 +2,7 @@ require "rails_helper"
 
 describe "Viewing an individual user" do
   it "shows the user's details" do
-    user = User.create(full_name: "Test User",
+    user = User.create(full_name: "Jane Smith",
                        level: "Senior Developer")
 
     visit user_url(user)
