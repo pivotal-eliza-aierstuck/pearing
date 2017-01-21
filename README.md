@@ -7,18 +7,6 @@
 Pearing is a nice simple app for pairing up pairs of programmers for pair-programming,
 like at pair-programming meetups, for instance.
 
-## Rails
-
-It runs on Rails 5.0.1
-
-## Ruby
-
-Built with Ruby 2.3.3
-
-## Heroku
-
-[https://pearing.herokuapp.com/](https://pearing.herokuapp.com/)
-
 ## To run locally
 
 Install Postgresql
