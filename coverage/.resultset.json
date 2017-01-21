@@ -1,12 +1,18 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/devinmorgenstern/code/pearing/spec/controllers/users_controller_spec.rb": [
+      "/Users/devinmorgenstern/code/pearing/spec/features/show_user_spec.rb": [
         1,
         null,
-        0,
+        1,
+        1,
+        1,
         null,
-        0,
+        null,
+        1,
+        null,
+        1,
+        1,
         null,
         null
       ],
@@ -265,6 +271,7 @@
       "/Users/devinmorgenstern/code/pearing/config/routes.rb": [
         1,
         1,
+        null,
         1,
         null
       ],
@@ -272,83 +279,24 @@
         1,
         null
       ],
-      "/Users/devinmorgenstern/code/pearing/spec/features/create_user_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/devinmorgenstern/code/pearing/spec/features/home_page_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/devinmorgenstern/code/pearing/spec/models/user_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
       "/Users/devinmorgenstern/code/pearing/app/models/user.rb": [
         1,
-        null,
         null
       ],
       "/Users/devinmorgenstern/code/pearing/app/controllers/users_controller.rb": [
         1,
         1,
-        2,
+        1,
         null,
         null,
         1,
-        2,
+        0,
         null,
         null,
         1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
         null,
         0,
         null,
@@ -357,7 +305,7 @@
         1,
         null,
         1,
-        1,
+        0,
         null,
         null
       ],
@@ -367,6 +315,6 @@
         null
       ]
     },
-    "timestamp": 1484932208
+    "timestamp": 1485038876
   }
 }
