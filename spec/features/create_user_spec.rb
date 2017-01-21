@@ -1,14 +1,6 @@
 require "rails_helper"
 
 describe "View users page" do
-  it "shows the users full name" do
-    user = User.create(full_name: "Test User")
-
-    visit user_url(user)
-
-    expect(page).to have_text("Test User")
-  end
-
   it "has an input field for full name" do
     visit new_user_url
 
