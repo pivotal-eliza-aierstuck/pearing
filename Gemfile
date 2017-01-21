@@ -27,10 +27,12 @@ group :development, :test do
 end
 
 group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
   gem "listen", "~> 3.0.5"
+  gem "pry-rails"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "web-console", ">= 3.3.0"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
