@@ -1,13 +1,17 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/devinmorgenstern/code/pearing/spec/features/show_user_spec.rb": [
+      "/Users/devinmorgenstern/code/pearing/spec/features/create_user_spec.rb": [
         1,
         null,
         1,
         1,
         1,
         null,
+        1,
+        1,
+        null,
+        1,
         null,
         1,
         null,
@@ -271,15 +275,10 @@
       "/Users/devinmorgenstern/code/pearing/config/routes.rb": [
         1,
         1,
-        null,
         1,
         null
       ],
       "/Users/devinmorgenstern/code/pearing/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/devinmorgenstern/code/pearing/app/models/user.rb": [
         1,
         null
       ],
@@ -290,13 +289,13 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         0,
         null,
@@ -305,7 +304,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
@@ -313,8 +312,12 @@
         1,
         1,
         null
+      ],
+      "/Users/devinmorgenstern/code/pearing/app/models/user.rb": [
+        1,
+        null
       ]
     },
-    "timestamp": 1485038876
+    "timestamp": 1485054628
   }
 }
