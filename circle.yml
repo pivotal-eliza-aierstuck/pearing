@@ -8,5 +8,6 @@ machine:
 deployment:
   staging:
     branch: master
-    heroku:
-      appname: pearing
+    commands:
+      - git push git@heroku.com:pearing.git $CIRCLE_SHA1:master
+      - heroku run rails db:migrate --app pearing
