@@ -22,7 +22,7 @@ describe "user features" do
 
   scenario "Creating New User" do
     visit users_url
-    click_button "Add User"
+    click_link "Add User"
 
     expect(current_path).to eq(new_user_path)
 

@@ -12,4 +12,18 @@
  *
  *= require_tree .
  *= require_self
+ *= require foundation_and_overrides
+
  */
+
+ body {
+   margin: 20px;
+}
+
+th {
+  background-color: #AAAAAA;
+}
+
+a.button {
+  float: right;
+}
