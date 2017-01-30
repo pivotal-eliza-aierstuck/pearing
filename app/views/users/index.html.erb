@@ -1,0 +1,20 @@
+<article>
+  <h1>Users</h1>
+  <%= button_to "Add User", new_user_path, { method: :get } %>
+  <table class="users-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <td><%=user.full_name%></td>
+          <td><%=user.level%></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</article>

@@ -4,7 +4,9 @@
     <%= form.text_field :full_name, class: "full-name" %>
 
     <%= form.label :level %>
-    <%= form.select :level, ["Beginner", "Jr. Developer", "Mid Developer", "Sr. Developer"], class: "skill-level" %>
+    <%= form.select :level,
+      ["Beginner", "Jr. Developer", "Mid Developer", "Sr. Developer"],
+      class: "skill-level" %>
 
     <%= form.submit "Submit" %>
   </div>

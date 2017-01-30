@@ -1,13 +1,14 @@
 require "rails_helper"
 
 describe User do
-  it "has a full_name and level" do
-    name = "Jane Smith"
-    skill_level = "Sr. Developer"
+  subject{ User.create(full_name: "Mia User", level: "Sr. Developer") }
 
-    user = User.new(full_name: name, level: skill_level)
+  it "must have a full name and level" do
+    user = User.new()
+    user.valid?
 
-    expect(user.full_name).to eq(name)
-    expect(user.level).to eq(skill_level)
+    expect(user.errors.size).to eq(2)
+    expect(user.errors[:full_name].size).to eq(1)
+    expect(user.errors[:level].size).to eq(1)
   end
 end
