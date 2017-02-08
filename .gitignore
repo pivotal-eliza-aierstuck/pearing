@@ -17,3 +17,5 @@
 
 # Ignore simplecov files
 coverage
+
+.rubocop.yml

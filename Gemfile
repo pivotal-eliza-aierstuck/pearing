@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem "coffee-rails", "~> 4.2"
+gem "foundation-rails"
 gem "high_voltage", "~> 3.0.0"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
@@ -15,12 +16,12 @@ gem "rails", "~> 5.0.1"
 gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
-gem "foundation-rails"
 
 group :development, :test do
   gem "byebug", platform: :mri
   gem "codeclimate-test-reporter", "~> 1.0.0"
   gem "rspec-rails", "~> 3.5.0"
+  gem "rubocop"
   gem "simplecov"
 end
 

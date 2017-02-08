@@ -1,10 +1,10 @@
-require "rails_helper"
+require 'rails_helper'
 
 describe User do
-  subject{ User.create(full_name: "Mia User", level: "Sr. Developer") }
+  subject { User.create(full_name: 'Mia User', level: 'Sr. Developer') }
 
-  it "must have a full name and level" do
-    user = User.new()
+  it 'must have a full name and level' do
+    user = User.new
     user.valid?
 
     expect(user.errors.size).to eq(2)
